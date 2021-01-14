@@ -26,10 +26,13 @@
         - TDD didUserWin function
             -One test for each possible out come, which are 9
     
-    - state
+    //- state
         - wins
         - losses
         - draws
 
     - event listener
         - what happens when the button clicks 
+            -it compares player and computer 
+            -adds win, loss, display
+            -sends message

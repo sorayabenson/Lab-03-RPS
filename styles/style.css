@@ -67,6 +67,20 @@ h3 {
     justify-content: center;
 }
 
+input {
+    display: none;
+}
+
+input:checked + img {
+    border: 3px #1be5ff solid;
+    border-radius: 5px;
+}
+
+input:hover + img {
+    border: 3px lightgrey solid;
+    border-radius: 5px;
+}
+
 button {
     background: black;
     color:#1be5ff;
