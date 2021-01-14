@@ -19,20 +19,20 @@
     
     //- getRandomThrow function in get-random-throw.js
     
-    - doesUserWin function in does-user-win.js
+    //- doesUserWin function in does-user-win.js
         //- player parameter
         //- computer parameter
         //- returns: draw, win, or lose
-        - TDD didUserWin function
-            -One test for each possible out come, which are 9
+        //- TDD didUserWin function
+            //-One test for each possible out come, which are 9
     
     //- state
-        - wins
-        - losses
-        - draws
+        //- wins
+        //- losses
+        //- draws
 
-    - event listener
-        - what happens when the button clicks 
-            -it compares player and computer 
-            -adds win, loss, display
-            -sends message
+    //- event listener
+        //- what happens when the button clicks 
+            //-it compares player and computer 
+            //-adds win, loss, display
+            //-sends message

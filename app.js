@@ -34,5 +34,4 @@ throwButton.addEventListener('click', () => {
         displayLosses.textContent = losses++;
     }
 
-    console.log(playerThrow, computerThrow);
 });
