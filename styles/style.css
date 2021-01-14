@@ -12,7 +12,8 @@ body, html {
     justify-content: center;
     align-items: center;
     font-family: 'Josefin Slab', serif;
-    font-size: 16px;
+    font-size: 20px; 
+    font-weight: 600;
     
 }
 
@@ -35,11 +36,27 @@ main {
     align-items: center;
 }
 
+section {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+div.rock-paper-scissors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 h1 {
     font-family: 'Megrim', cursive;
-    font-weight: 300;
-    font-size: 5rem;
-    text-shadow: 2px 2px white;
+    font-weight: 600;
+    font-size: 3rem;
 }
 
 h3 {

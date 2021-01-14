@@ -25,11 +25,17 @@
         </section>
 
         <section class="rps-game">
-            <label for="rps">
-                <input type="radio" name="rps" id="rock">
-                <input type="radio" name="rps" id="paper">
-                <input type="radio" name="rps" id="scissors">
-            </label>
+            <div class="rock-paper-scissors">
+                <label for="rps">
+                    <input type="radio" name="rps" id="rock">🌚
+                </label>
+                <label for="rps">
+                    <input type="radio" name="rps" id="paper">🧻
+                </label>
+                <label for="rps">
+                    <input type="radio" name="rps" id="scissors">✂
+                </label>
+            </div>
 
             <button class="throw-button" id="throwButton">throw!</button>
 
@@ -38,7 +44,7 @@
 
         <section class="win-lose-draw">
             <div class="w-l-d">wins: <span id="wins"></span></div>
-            <div class="w-l-d">loses: <span id="loses"></span></div>
+            <div class="w-l-d">losses: <span id="losses"></span></div>
             <div class="w-l-d">draws: <span id="draws"></span></div>
         </section>
 
