@@ -1,9 +1,20 @@
 // IMPORT MODULES under test here:
 import { doesUserWin } from '../does-user-win.js';
+import { getRandomThrow } from '../get-random-throw.js'
 
 const test = QUnit.test;
 
-//Tests for win results
+//test for getRandomThrow
+
+test('randomThrow should return a string: rock, paper or scissors', (expect) => {
+
+    const expected = "string";
+
+    const actual = typeof (getRandomThrow());
+
+    expect.equal(actual, expected);
+
+});
 
 test('if player plays rock and computer plays scissors returns win', (expect) => {
 
@@ -87,3 +98,4 @@ test('if player plays scissors and computer plays rock returns lose', (expect) =
 
     expect.equal(actual, expected);
 });
+
